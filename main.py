@@ -8,7 +8,7 @@ class Calc:
         #FUNÇÃO PARA CENTRALIZAR O TEXTO DO TÍTULO
         def center(e):
             w = int(self.window.winfo_width() / 3.5) # Obtenha a largura da janela e dimensione-a (em pixels).
-            s = 'Notepad'.rjust(w//2)
+            s = 'Calculadora'.rjust(w//2)
             self.window.title(s)
         
         #JANELA
